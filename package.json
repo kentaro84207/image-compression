@@ -1,0 +1,17 @@
+{
+  "name": "image-compression",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compress": "npx tsx compress-images.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.9.3",
+    "child_process": "^1.0.2",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0"
+  }
+}
